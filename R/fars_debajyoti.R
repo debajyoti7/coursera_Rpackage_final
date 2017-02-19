@@ -1,6 +1,3 @@
-library(tidyverse)
-library(magrittr)
-
 #' Read fars data
 #'
 #' Check if input file exists in current working directory and if found, read data from it.
