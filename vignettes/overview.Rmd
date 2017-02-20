@@ -25,14 +25,14 @@ There are three exported functions available to users:
 - `fars_summarize_years()`
 - `fars_map_state()`
 
-Further we give a short description with examples how to use the functions. For the purposes of these examples we will use data from FARS, years 2013-2015, that can be found in the package directory under `\data` folder.
+Further we give a short description with examples how to use the functions. For the purposes of these examples we will use data from FARS, years 2013-2015, that can be found in the package directory under `data` folder.
 
 ## Read FARS data files
 
 The function `fars_read()` provides a way how to read data from a file path provided as an argument. It returns a `tibble` with loaded data:
 
 ```{r fars_read_example}
-filename <- system.file("data/accident_2013.csv.bz2", package = "farsDebajyoti")
+filename <- system.file("accident_2013.csv.bz2", package = "farsDebajyoti")
 fars_read(filename)
 ```
 
@@ -47,7 +47,7 @@ fars_summarize_years(2013:2015)
 
 ## Plot accident locations
 
-The last function available in the package, `fars_map_state()` takes a state index and year as arguments and returns a plot of the state with accident locations. The state indices need to correspond available indeces from the data set. Here are some examples:
+The last function available in the package, `fars_map_state()` takes a state index and year as arguments and returns a plot of the state with accident locations. The state indices need to correspond available indices from the data set. Here are some examples:
 
 ```{r fars_map_state_example}
 setwd(system.file("data", package = "farsDebajyoti"))
