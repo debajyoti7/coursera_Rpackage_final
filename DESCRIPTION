@@ -3,8 +3,8 @@ Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1
 Date: 2017-02-19
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Author: Debajyoti Nag
+Maintainer: Debajyoti Nag <dave0908@gmail.com>
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
 LazyData: TRUE
