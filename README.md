@@ -1,6 +1,6 @@
 
 
-# FARS: Accident Data Analysis package
+# farsDebajyoti: Accident Data Analysis package by Debajyoti
 
 This is an `R` package created for Coursera course [Building R Packages](https://www.coursera.org/learn/r-packages/home). 
 It contains several basic functions for analyzing data from Fatality Analysis Reporting System (FARS) - [source](http://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)). 
