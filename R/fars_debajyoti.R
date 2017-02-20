@@ -10,7 +10,7 @@
 #'
 #' @return This function returns a dplyr dataframe
 #'
-#'
+#'@export
 fars_read <- function(filename) {
   if(!file.exists(filename))
     stop("file '", filename, "' does not exist")
