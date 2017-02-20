@@ -18,7 +18,9 @@ check if a matching input file exists in current working directory and if found,
 If matching file is not found in the current working directory, it throws an __invalid year__ error.
 }
 \examples{
+\dontrun{
 fars_read_years(2013)
 fars_read_years("2013")
+}
 }
 

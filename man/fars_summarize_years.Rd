@@ -16,7 +16,9 @@ This functions returns a summarized dataframe giving count of instances per mont
 Try to read fars data in current working directory and if successful, summarize data by count of instances per month.
 }
 \examples{
+\dontrun{
 fars_summarize_years(2013)
 fars_summarize_years("2013")
+}
 }
 

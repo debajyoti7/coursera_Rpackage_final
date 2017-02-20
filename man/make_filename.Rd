@@ -17,8 +17,10 @@ Take _year_ value as input, converts it into an integer, and generates a charact
 of text and provided variable values.
 }
 \examples{
+\dontrun{
 make_filename(2013)
 make_filename("2013")
 make_filename("2013.076")
+}
 }
 

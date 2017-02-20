@@ -19,6 +19,8 @@ Read fars data from file in current working directory and plot accident location
 within a fixed maximum threshold for longitude (900) and latitude (90). Throws error if invalid values are provided for _year_ and _state_.
 }
 \examples{
+\dontrun{
 fars_map_state(1,2013)
+}
 }
 
