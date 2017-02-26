@@ -1,11 +1,11 @@
 Package: farsDebajyoti
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Exploratory Analysis on accident data
 Version: 0.1
 Date: 2017-02-19
 Author: Debajyoti Nag
 Maintainer: Debajyoti Nag <dave0908@gmail.com>
-Description: More about what it does (maybe more than one line)
+Description: Works with accident data from fars to provide basic statistical information and plot.
 License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 5.0.1.9000
