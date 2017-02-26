@@ -32,7 +32,7 @@ Further we give a short description with examples how to use the functions. For 
 The function `fars_read()` provides a way how to read data from a file path provided as an argument. It returns a `tibble` with loaded data:
 
 ```{r fars_read_example}
-filename <- system.file("accident_2013.csv.bz2", package = "farsDebajyoti")
+filename <- system.file("data/accident_2013.csv.bz2", package = "farsDebajyoti")
 fars_read(filename)
 ```
 
